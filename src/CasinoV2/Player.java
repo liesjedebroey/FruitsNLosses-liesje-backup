@@ -16,7 +16,6 @@ public class Player {
             wallet -= amount;
             System.out.println("€" + amount + " taken from the wallet \uD83D\uDCB8. current balance: €"+ getWallet());
         }
-
         public void walletIn(int amount) {
             wallet += amount;
             System.out.println("€" + amount + " added to the wallet \uD83D\uDCB0! current balance: €" + getWallet());
